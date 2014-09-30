@@ -17,7 +17,7 @@ my $to = "/Volumes/4T/mov1/";  #마지막 슬래시 필수
 
 
 my @target_files = File::Find::Rule->file()
-							->name('*.mov','*.MOV')
+							->name('*.mov','*.MOV','*.jpg','*.JPG')
 							->in($dir);
 							
 
